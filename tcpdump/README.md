@@ -4,7 +4,11 @@ Visualise multiple docker networks' traffic using tcpdump
 
 ## Install
 
-Python 3.6+, tcpdump and graphviz are required on the host system.
+Python 3.6+, tcpdump, graphviz and parallel are required on the host system.
+
+```
+sudo apt-get install python3 tcpdump graphviz parallel
+```
 
 ## Use
 
